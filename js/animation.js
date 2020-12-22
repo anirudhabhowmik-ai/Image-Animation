@@ -35,3 +35,5 @@ p(a,"cell-inner"),o.push(a)}return f(n,c),o}),H=n("cellRows",[M],"row",function(
 return g(e[M],function(n,t,e){i[Math.floor(t/(e.length/r))].push(n)}),i}),O=n("cellColumns",[M],"col",function(n,t,e){var r=t.columns,i=o(r)
 return g(e[M],function(n,t){i[t%r].push(n)}),i}),j=n("cells",["cellRows","cellColumns"],"cell",function(n,t,e){return e[M]})
 return t(r),t(w),t(T),t(L),t(k),t(A),t(C),t(S),t(H),t(O),t(j),b})
+
+ Splitting();
